@@ -13,7 +13,7 @@ namespace Condition.Tests
             var actualResult = Condition.Task1(n);
             if (actualResult != expected)
             {
-                Assert.Fail(message: "Method 'Task1'  returnt incorrect value");
+                Assert.Fail(message: $"Method 'Task1' return incorrect value '{actualResult}' must by '{expected}'");
             }
         }
 
@@ -29,7 +29,7 @@ namespace Condition.Tests
             var actualResult = Condition.Task2(n);
             if (actualResult != expected)
             {
-                Assert.Fail(message: "Method 'Task2'  returnt incorrect value");
+                Assert.Fail(message: $"Method 'Task2' return incorrect value '{actualResult}' must by '{expected}'");
             } 
         }
     }
