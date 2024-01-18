@@ -1,0 +1,9 @@
+/.vscode
+/Condition.Tests/bin
+/Condition.Tests/bin/Debug
+/Condition.Tests/bin/Debug/net7.0
+/Condition.Tests/obj
+/Condition/bin
+/Condition/bin/Debug
+/Condition/bin/Debug/net7.0
+/Condition/obj
